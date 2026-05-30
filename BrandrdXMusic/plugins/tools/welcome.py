@@ -94,7 +94,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ๏ 𝐌𝐀𝐃𝐄 𝐁𝐘 ➠ [𝗕𝗔𝗟𝗠𝗔 𓆩🇽𓆪 𝗔𝗧𝗬𝗔𝗖𝗛𝗔𝗥𝗜 📿](https://t.me/fighterx_guru)
 ➖➖➖➖➖➖➖➖➖➖➖
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/Sustumm_music_bot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/Nia_music_bot?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
